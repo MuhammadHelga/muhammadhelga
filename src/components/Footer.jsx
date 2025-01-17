@@ -8,10 +8,14 @@ function Footer() {
     <footer>
         <h3>Contact Me</h3>
         <div className='contact'>
-            <MdEmail/>
+        <div className='contact-item'>
+            <MdEmail />
             <h5>muhammadhelga41@gmail.com</h5>
-            <FaWhatsapp/>
+        </div>
+        <div className='contact-item'>
+            <FaWhatsapp />
             <h5>082231528841</h5>
+        </div>
         </div>
     </footer>
   )

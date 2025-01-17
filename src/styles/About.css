@@ -1,0 +1,92 @@
+#about {
+    background-color: #eaedef;
+    position: relative;
+    font-size: 1.2rem;
+  }
+  #about > .wrapper {
+    margin: auto;
+    width: 50%;
+  }
+  #about > .wrapper > h3 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    color: #333;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  #about > .wrapper > p {
+    text-align: center;
+  }
+  
+  #about > .wrapper > h4 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 5px;
+    color: #333;
+  }
+  .skills {
+    text-align: center;
+  }
+  .skills > svg {
+    display: inline-block;
+    color: #74797e;
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .skills > .html:hover {
+    color: #e34c26;
+  }
+  .skills > .css:hover {
+    color: #264de4;
+  }
+  .skills > .js:hover {
+    color: #f0db4f;
+  }
+  .skills > .php:hover {
+    color: #787cb5;
+  }
+  .skills > .java:hover {
+    color: #e11631;
+  }
+  .skills > .react:hover {
+    color: #61dbfb;
+  }
+  .skills > .kotlin:hover {
+    color: #806EE3;
+  }
+  .skills > .python:hover {
+    color: #ffd43b;
+  }
+  .skills > .bs:hover {
+    color: #563d7c;
+  }
+  .skills > .sql:hover {
+    color: #f29111;
+  }
+  .skills > .laravel:hover {
+    color: #fb503b;
+  }
+  .skills > .android:hover {
+    color: #3ddc84;
+  }
+  .skills > .vsc:hover {
+    color: #0078d7;
+  }
+  .skills > .git:hover {
+    color: #f1502f;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    #about > .wrapper {
+      width: 80%;
+    }
+  }

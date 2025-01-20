@@ -10,7 +10,7 @@ function Experience() {
     <section id='exp'>
         <div className='wrapper'>
         <h3>Experience</h3>
-        <VerticalTimeline>
+        <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="Oct 2023 - Nov 2023"

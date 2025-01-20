@@ -126,6 +126,9 @@ animation-delay: 0s;
 }
 
 .skills > .figma {
+  padding: 5px;
+  height: 35px;
+  width: 35px;
   color: #ffff;
   background: linear-gradient(180deg, #f24e1e, #ff7262, #a259ff, 	#1abcfe, #0acf83);
   animation-delay: 1.3s;

@@ -125,9 +125,20 @@ animation-delay: 0s;
   animation-delay: 1.2s;
 }
 
+.skills > .figma {
+  color: #ffff;
+  background: linear-gradient(180deg, #f24e1e, #ff7262, #a259ff, 	#1abcfe, #0acf83);
+  animation-delay: 1.3s;
+}
+
+.skills > .laragon {
+  color: #419be6;
+  animation-delay: 1.4s;
+}
+
 .skills > .git {
   color: #f1502f;
-  animation-delay: 1.3s;
+  animation-delay: 1.5s;
 }
   
   @media only screen and (max-width: 1000px) {

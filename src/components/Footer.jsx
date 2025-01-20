@@ -10,11 +10,11 @@ function Footer() {
         <div className='contact'>
         <div className='contact-item'>
             <MdEmail />
-            <h5>muhammadhelga41@gmail.com</h5>
+            <p>muhammadhelga41@gmail.com</p>
         </div>
         <div className='contact-item'>
             <FaWhatsapp />
-            <h5>082231528841</h5>
+            <p>082231528841</p>
         </div>
         </div>
     </footer>

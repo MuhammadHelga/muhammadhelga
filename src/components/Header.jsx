@@ -18,7 +18,7 @@ function Header() {
                 <a className='linkedin' href="https://www.linkedin.com/in/muhammad-helga-yudhi-miqailla-1133352b2/"><FaLinkedin/></a>
             </div>
             <div className='resume'>
-                <a href="https://drive.google.com/file/d/1YA-V83XGPCfgR6j-cix-MaUmKh-4DHC3/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1ohnOSeGPCv9Kl4798DeG5diIzlDQvI-g/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 <button>My Resume</button>
                 </a>
             </div>

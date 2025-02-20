@@ -25,7 +25,7 @@ header {
   cursor: pointer;
 }
 .resume > a  > button:hover {
-  background-color: #54806d;
+  background-color: #b5cf77;
 }
 .header-jumbotron {
   position: relative;
@@ -83,7 +83,8 @@ header {
   width: auto;
 }
 .socialMedia > .ig:hover {
-  background: linear-gradient(45deg, #5B51D8, #E1306C, #F77737, #FFDC80);
+  /* background: linear-gradient(45deg, #5B51D8, #E1306C, #F77737, #FFDC80); */
+  background: linear-gradient(45deg, #FFDC80, #F77737, #E1306C, #5B51D8);
 }
 .socialMedia > .github:hover {
   background-color: #0c0c0c;

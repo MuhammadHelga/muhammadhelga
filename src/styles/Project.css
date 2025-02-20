@@ -1,8 +1,9 @@
 .grid {
-    display: grid;
+    display: flex;
     grid-template-columns: 30% 30% 30%;
-    grid-gap: 25px;
-    justify-content: center;
+    grid-gap: 50px;
+    justify-content: space-between;
+    margin: 28px;
   }
   
   .grid > .item > a > img {

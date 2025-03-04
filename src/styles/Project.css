@@ -21,3 +21,14 @@
       grid-template-columns: 45% 45%;
     }
   }
+
+  @media only screen and (max-width: 768px) { 
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .grid > .item {
+    width: 80%;
+  }
+}

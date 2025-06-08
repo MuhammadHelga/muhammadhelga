@@ -90,6 +90,11 @@ animation-delay: 0s;
   animation-delay: 0.5s;
 }
 
+.skills > .flutter {
+  color: #03A9F4;
+  animation-delay: 0.5s;
+}
+
 .skills > .kotlin {
   color: #806EE3;
   animation-delay: 0.6s;

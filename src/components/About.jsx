@@ -16,6 +16,7 @@ import { VscVscode } from "react-icons/vsc";
 import { FaFigma } from "react-icons/fa";
 import { SiLaragon } from "react-icons/si";
 import { FaGit } from "react-icons/fa6";
+import { FaFlutter } from "react-icons/fa6";
 import { motion } from 'framer-motion';
 
 function About() {
@@ -55,6 +56,7 @@ function About() {
                 <SiPhp className='php'/>
                 <FaJava className='java'/>
                 <FaReact className='react'/>
+                <FaFlutter className='flutter'/>
                 <SiKotlin className='kotlin'/>
                 <FaPython className='python'/>
                 <FaBootstrap className='bs'/>

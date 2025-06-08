@@ -14,31 +14,31 @@ function Experience() {
         <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="Oct 2023 - Nov 2023"
+                date="Mar 2025 - Present"
                 iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
-                icon={<img src={icondsi} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
-            >
-                <h3 className="vertical-timeline-element-title">Staff Event Division</h3>
-                <h4 className="vertical-timeline-element-subtitle">LKMM Information Systems Department</h4>
+                icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
+                >
+                <h3 className="vertical-timeline-element-title">Web Developer | Student Employee</h3>
+                <h4 className="vertical-timeline-element-subtitle">Faculty of Computer Science (FILKOM) University of Brawijaya</h4>
                 <p>
-                Become staff in the events division to run the LKMM series of the Information Systems Department
+                    Create a program and performance monitoring website for units in the faculty using reactJS and the API that has been provided
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="Feb 2025 - Present"
+                date="Feb 2025 - Jun 2025"
                 iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                 icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
                 >
                 <h3 className="vertical-timeline-element-title">Mobile Application Development Laboratory Practicum Assistant</h3>
                 <h4 className="vertical-timeline-element-subtitle">Faculty of Computer Science (FILKOM) University of Brawijaya</h4>
                 <p>
-                
+                    
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="Feb 2025 - Present"
+                date="Feb 2025 - Jun 2025"
                 iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                 icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
                 >
@@ -50,7 +50,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="Feb 2025 - Present"
+                date="Feb 2025 - Jun 2025"
                 iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                 icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
                 >
@@ -60,7 +60,19 @@ function Experience() {
                 
                 </p>
             </VerticalTimelineElement>
-              </VerticalTimeline>
+             <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="Oct 2023 - Nov 2023"
+                iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+                icon={<img src={icondsi} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
+            >
+                <h3 className="vertical-timeline-element-title">Staff Event Division</h3>
+                <h4 className="vertical-timeline-element-subtitle">LKMM Information Systems Department</h4>
+                <p>
+                Become staff in the events division to run the LKMM series of the Information Systems Department
+                </p>
+            </VerticalTimelineElement>
+         </VerticalTimeline>
     </div>
     </section>
   )

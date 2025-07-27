@@ -3,6 +3,7 @@ import '../styles/Project.css'
 import project1 from '../assets/lelibro.png'
 import project2 from '../assets/restaurant.png'
 import project3 from '../assets/kartanary.png'
+import project4 from '../assets/ujm.png'
 
 function Project() {
   return (
@@ -18,6 +19,9 @@ function Project() {
                 </div>
                 <div className='item'>
                     <a href="https://github.com/MuhammadHelga/kartanary.git"><img src={project3}/></a>
+                </div>
+                <div className='item'>
+                    <a href="https://github.com/MuhammadHelga/UJM.git"><img src={project4}/></a>
                 </div>
             </div>
         </div>

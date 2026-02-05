@@ -3,7 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../styles/Experience.css'
 import icondsi from '../assets/dsi.png'
 import iconFilkom from '../assets/filkom.png'
-import iconProgrammer form '../assets/programmer.png'
+import iconProgrammer from '../assets/programmer.png'
 
 import React from 'react'
 

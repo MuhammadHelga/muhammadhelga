@@ -14,7 +14,31 @@ function Experience() {
         <VerticalTimeline animate={false}>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="Mar 2025 - Present"
+                date="Aug 2025 - Oct 2025"
+                iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+                icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
+                >
+                <h3 className="vertical-timeline-element-title">Web Developer</h3>
+                <h4 className="vertical-timeline-element-subtitle">PT. Aptikma</h4>
+                <p>
+                    Create a program and performance monitoring website for units in the faculty using reactJS and the API that has been provided
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="Aug 2025 - Oct 2025"
+                iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+                icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
+                >
+                <h3 className="vertical-timeline-element-title">Mobile Developer</h3>
+                <h4 className="vertical-timeline-element-subtitle">PT. Aptikma</h4>
+                <p>
+                    
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="Mar 2025 - Jul 2025"
                 iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                 icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
                 >

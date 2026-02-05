@@ -22,7 +22,7 @@ function Experience() {
                 <h3 className="vertical-timeline-element-title">Web Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">PT. Aptikma</h4>
                 <p>
-                    Create a program and performance monitoring website for units in the faculty using reactJS and the API that has been provided
+                    Fix various bugs in the web using ReactJs, and manage database using PostgreSql. Create new feature for routing navigation.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -34,7 +34,7 @@ function Experience() {
                 <h3 className="vertical-timeline-element-title">Mobile Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">PT. Aptikma</h4>
                 <p>
-                    
+                    Fix various bugs in the application using React Native. Develop offline map features using Kotlin. Rebuild the application using React Native with integration to Google Spreadsheet via the Apps Script extension.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

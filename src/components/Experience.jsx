@@ -3,6 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../styles/Experience.css'
 import icondsi from '../assets/dsi.png'
 import iconFilkom from '../assets/filkom.png'
+import iconProgrammer form '../assets/programmer.png'
 
 import React from 'react'
 
@@ -16,7 +17,7 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 date="Aug 2025 - Oct 2025"
                 iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
-                icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
+                icon={<img src={iconProgrammer} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
                 >
                 <h3 className="vertical-timeline-element-title">Web Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">PT. Aptikma</h4>
@@ -28,7 +29,7 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 date="Aug 2025 - Oct 2025"
                 iconStyle={{ background: 'rgb(70, 78, 85)', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
-                icon={<img src={iconFilkom} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
+                icon={<img src={iconProgrammer} alt='dsi icon' style={{ width: '90%', height: '90%', borderRadius: '50%', objectFit: 'cover' }}/>}
                 >
                 <h3 className="vertical-timeline-element-title">Mobile Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">PT. Aptikma</h4>
